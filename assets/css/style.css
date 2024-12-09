@@ -24,7 +24,8 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-body {
+html, body {
+    max-width: 100%;
     font-family: "Bangers", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -59,6 +60,8 @@ h6 {
 p {
   color: #dec01b;
   line-height: 21.6px;
+  -webkit-text-stroke: .5px navy;
+  text-stroke: .5px navy;
 }
 
 /*--------------------------------------------------------------
@@ -158,6 +161,8 @@ p {
 
 #header .logo a {
   color: #fdfdfd;
+  -webkit-text-stroke: .5px navy;
+  text-stroke: .5px navy;
 }
 
 #header .logo img {
