@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Cabin+Sketch:wght@400;700&family=Luckiest+Guy&display=swap');
-:root {
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Cabin+Sketch:wght@400;700&family=Luckiest+Guy&family=Rubik+Doodle+Shadow&display=swap');:root {
   /* Colors */
   --color-limegreen-100: #ce8f06;
   --color-skyblue-100: #5DCCFA;
@@ -47,10 +46,14 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Bangers", sans-serif;
-  -webkit-text-stroke: .5px navy;
-  text-stroke: .5px navy;
-}
+    font-family: "Cabin Sketch", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3);
+    -webkit-text-stroke:1px #000a0e;
+    z-index: 100000;
+
+  }
 
 
 p {
@@ -156,7 +159,7 @@ p {
 }
 
 #header .logo a {
-  color: #fdfdfd;
+  color: #c59f9f;
   -webkit-text-stroke: .5px navy;
   text-stroke: .5px navy;
 }
