@@ -51,7 +51,8 @@ h4,
 h5,
 h6 {
   font-family: "Bangers", sans-serif;
-  stroke: 2px #ce8f06;
+  -webkit-text-stroke: .5px navy;
+  text-stroke: .5px navy;
 }
 
 
