@@ -730,14 +730,14 @@ section {
   font-size: 50px;
   font-weight: bold;
   position: relative;
-  color: #021E0A;
+  color: #f8f8f8;
 }
 
 .section-sub-title{
   color: var(--color-gray-300);
 }
 
-/* .section-title h2::before {
+.section-title h2::before {
   content: "";
   position: absolute;
   display: block;
@@ -757,7 +757,7 @@ section {
   background: #47b2e4;
   bottom: 0;
   left: calc(50% - 20px);
-} */
+} 
 
 .section-title p {
   margin-bottom: 0;
@@ -880,8 +880,11 @@ section {
 }
 
 
-#tokenomics .section-title{
+#tokenomics .section-title h1{
   text-align: center;
+
+  color: #eee important;
+  
 }
 
 
