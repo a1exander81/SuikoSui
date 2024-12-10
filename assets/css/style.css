@@ -23,10 +23,9 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-html, body {
+body {
     max-width: 100%;
     overflow-x: hidden;
-  
   
 }
 
@@ -799,7 +798,7 @@ section {
 # About Us
 --------------------------------------------------------------*/
 #about {
-  background: #000a0e;
+  background: #d7eaf2;
     padding-top: 0px;
     padding-bottom: 0px;
 }
@@ -876,7 +875,7 @@ section {
 --------------------------------------------------------------*/
 
 #tokenomics{
-  background: linear-gradient(93deg, #5dccfa -290%, #000a0e 30%);
+  background: linear-gradient(93deg, #5dccfa -290%,#d7eaf2 30%);
 }
 
 
@@ -908,7 +907,7 @@ section {
 # Roadmap
 --------------------------------------------------------------*/
 #roadmap{
-  background: linear-gradient(93deg, #5dccfa -290%, #000a0e 30%);
+  background: linear-gradient(93deg, #5dccfa -290%,#d7eaf2 30%);
 }
 
 
@@ -933,7 +932,7 @@ margin-bottom: 10px;
 # Presale
 --------------------------------------------------------------*/
 #presale{
-  background: linear-gradient(274deg, #5dccfa -290%, #000a0e 30%);
+  background: linear-gradient(93deg, #5dccfa -290%,#d7eaf2 30%);
 }
 
 
